@@ -1,0 +1,50 @@
+#btsb{
+    text-decoration: none;
+    background-color: rgb(121, 82, 179);
+    color: white;
+    border: none;
+    border-radius: 3px;
+    margin: 5px;
+ 
+    height: 41px;
+    width: 114px;
+    font-size: 12px;
+    font-weight: 800;
+    cursor: url(images/starrr.png) 10 10, auto;
+
+    transition: opacity 0.4s;
+    transition: box-shadow 0.20s;
+}
+#btsb:hover{
+    opacity: 0.6;
+    box-shadow: 5px 6px 18px rgba(44, 43, 43, 0.514);
+}
+
+#dlb{
+    text-decoration: none;
+    background-color: rgb(255, 255, 255);
+    color: rgb(126, 126, 126);
+    border: 2px solid rgb(182, 182, 182);
+    border-radius: 3px;
+
+    height: 41px;
+    width: 114px;
+    font-size: 12px;
+    font-weight: 800;
+    cursor: progress;
+
+    transition: box-shadow 0.2s;
+}
+#dlb:hover{
+    background-color: rgb(182, 182, 182);
+    color: rgb(121, 82, 179);
+
+}
+#buttons{
+    display: flex;
+    gap: 10px;           
+    margin: 20px 350px 0 0;        
+    padding: 200px;          
+    justify-content: center; 
+    align-items: center;  
+}

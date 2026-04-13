@@ -1,0 +1,143 @@
+@font-face {
+    font-family: Henpen ;
+    src: url(font/HennyPenny-Regular.ttf);
+}
+
+*{
+    
+    font-family: Henpen;
+    padding: auto;
+    align-items: center;
+    
+    
+}
+header{
+    
+    background-image: url(images/ob3.jpg);
+    background-size: 1500px;
+    background-blend-mode: screen;
+    opacity: 92%;
+    background-blend-mode: lighten;
+    margin: -10px;
+    
+
+   
+}
+body{
+    
+    background-repeat: repeat;
+    background-size: 700px;
+    background-attachment: local;
+    background-color: hsl(335, 88%, 78%);;
+    
+}
+main{
+    display: flex;
+    justify-content: center;
+}
+#mtt{
+    margin-left: 20px;
+    top: -16px;
+    font-size: 40px;
+    font-family: Henpen;
+    color: hsl(335, 88%, 78%);
+    justify-content: center;
+    display: inline-block;
+    
+    
+    -webkit-text-stroke: 7px hsl(22, 39%, 37%);
+    paint-order: stroke fill;
+    filter: drop-shadow(5px 3px 0.5px rgb(255, 253, 252));
+}
+
+.bar{
+
+    display: block;
+    width: 10000px;
+    height: 40px;
+    
+}
+#taskbar{
+    background-color: hsl(22, 38%, 35%);
+    border: 4px;
+    border-color: hsl(22, 39%, 37%);
+   
+
+    text-indent: 5px;
+    font-size: 19px;
+    padding: auto;
+    position: relative;
+    text-align: left;
+    display: inline-block;
+
+    top: -16px;
+    left: 20px;
+    
+    color: hsl(335, 88%, 78%);
+    -webkit-text-stroke: 4px hsl(22, 39%, 37%);
+    paint-order: stroke fill;
+    text-underline-offset: none;
+}
+#taskbar:hover{
+    color: antiquewhite;
+}
+br{
+    height: 2px;
+}
+#box1{
+    padding: auto;
+    background-color: aliceblue;
+    background-position: auto;
+    border: 2px dashed hsl(22, 39%, 37%);
+    color: hsl(335, 88%, 78%);
+    box-shadow: 5px 4px 2px hsl(22, 39%, 37%);
+  
+    text-align: center;
+    position: relative;
+    left:20px;
+    width: fit-content;
+}
+#box2{
+    position: relative;
+    top: 0px;
+    left: 10px;
+ 
+}
+.rwg{
+    border: 2px ridge hsl(0, 0%, 73%);
+    border-radius: 2px;
+    margin-left: 15px;
+    max-width: 150px;
+    max-height: 221px;
+
+    margin: auto;
+    padding: auto;
+    display: inline-block;
+   
+   
+}
+.rwg img{
+    width: 150px;
+    min-height: 221px;
+    max-height: 221px;
+
+    border: 1px solid hsl(22, 39%, 37%);
+}
+
+.rwg .gtext{
+    position: relative;
+    top: -5px;
+    font-size: 10px;
+    padding: auto;
+  
+
+    background-image: url(images/ob3.jpg);
+    color: hsl(335, 88%, 78%);
+    text-align: center;
+    max-height: 45px;
+  
+}
+
+@media screen and (max-width:600px) {
+    
+}

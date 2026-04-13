@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <!--
+        Intro to HTML
+            1. Title of page and icon -- Image / Audio / Video 
+                Example:
+                FOR AUD/VID:
+                    <audio / video controls autoplay loop>
+                        <source src="" type="">
+                    </audio / video>
+                FOR IMG:
+                    <img src="" type="">
+                FOR ICON:
+                    <link rel="icon / stylehseet" href="">
+            2. Paragraphs -- pre and p
+            3. HREF attribute -- hyperlinks
+            4. rel and href combo for adding site icon and stylesheets linking / list
+            5. style
+            6. alt -- title (text you'll see if u hover around a certain element that has that tag) -- 
+            7. ORGANIZATION of folders and files
+                - <header>
+                - <main>
+                - <footer>
+                    a. copyright : &copy; PattyCorp.
+            8. <hr> and <br> and <h1> 
+            9. THE REAL JUICE!!!
+                - Lists: 
+                    Types:
+                     a. ul -- unordered lists
+                     b. ol -- ordered lists
+                     c. dl -- description lists
+                - Table:
+                    Elements:
+                    a. table tag
+                    b. tr and th
+                    c. styling
+                - Forms:
+                    A lot of fill-up options and uses label and input and select and option and textarea and radio and name and value 
+                        Important tags:
+                            a. for=""
+                            b. id=""
+                            c. value-""
+                            d. name=""
+                            e. type=""
+                            f. 
+                        FOR type="tel":
+                            Pattern reference: Tel 123-456-7890
+                                code would be:
+                            - <input type="tel" pattern="[0-9]{3}-[0-9]{3}-[0-9]{4}"
+            
+    -->
+
+    <!--
+    FUNCTIONS:
+        1. function doSomething():
+                <p id="questionienie">When's the next concert?</p>
+        <script>
+            function doSomething(){
+                document.getElementById("questionienie").innerHTML = "July 27, 2029"
+            }
+        </script> 
+        <button onclick="doSomething()">WHEN??</button>
+    -->
+
+    <!--
+    CSS REAL SH:
+        1. id and class stylsheet
+        2. stroke/outline
+            - text-shadow: -1.5px 0 rgb(109, 62, 35), 0 1.5px rgb(109, 62, 35), 1.5px 0 rgb(109, 62, 35), 0 -1.5px rgb(109, 62, 35);
+        3. Pseudo-classes:
+            - link
+            - hover
+            - active
+            - visited
+        4. Pseudo-Elements:
+            - li:nth-child(anything acktually like even/odd){
+                background-color: pink;
+            }
+            - ::
+                - first-letter
+                - first-line
+                - selection
+                - before
+                - after
+                - marker
+        5. Padding and Margin:
+        /* PADDING = space INSIDE */
+padding: 90px;   /* Inside the container */
+
+/* MARGIN = space OUTSIDE */
+margin: 90px;    /* Outside the container */
+            - ┌─────────────────────┐
+              │  90px padding       │
+              │  ┌───────────────┐  │
+              │  │   CONTENT     │  │
+              │  └───────────────┘  │
+                 90px padding       │
+              └─────────────────────┘
+            - margin: top right bottom left;
+
+    -->
+
+</body>
+</html>
